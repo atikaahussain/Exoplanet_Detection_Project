@@ -1,0 +1,27 @@
+# --- DATA ---
+data/
+*.csv
+*.zip
+*.json
+
+# --- PYTHON & JUPYTER ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.venv/
+env/
+venv/
+
+# --- MODELS ---
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
+
+# --- RESULTS  ---
+# results/images/
+# results/confusion_matrices/
